@@ -149,7 +149,8 @@ class graphtec_dialog:
         dialog["dialog2"].set_property("visible", False)
 
     def on_okbutton1_clicked(w):
-        w.confirm()
+        #w.confirm()
+        dialog.confirm()
         gtk.main_quit()
 
     def on_papersize_changed(w):
